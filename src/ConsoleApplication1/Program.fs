@@ -63,13 +63,6 @@ open Kakuro
 
 [<EntryPoint>]
 let main argv = 
-//    [0..255]
-//    |> Seq.map ( fun i -> (i, System.Convert.ToChar(i)))
-//    |> Seq.iter (fun c -> 
-//        match c with
-//        | (a,b)-> printfn "%i - %s" a (b.ToString()))
-
-
     printfn "%O" (parseCell "3\\4")
     printfn "%O" (parseCell "\\4")
     printfn "%O" (parseCell "3\\")
