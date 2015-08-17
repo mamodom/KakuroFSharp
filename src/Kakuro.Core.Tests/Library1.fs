@@ -1,4 +1,12 @@
 ﻿namespace Kakuro.Core.Tests
 
-type Class1() = 
-    member this.X = "F#"
+module ``Kakuro cell parser`` =
+    open NUnit.Framework
+    open FsUnit
+    open Kakuro.Core.Parser
+
+    [<Test>]
+    let `` parses an empty sum cell`` () =
+        (parseCell "\\" ).ToString() 
+        |> should equal "X"
+        
