@@ -1,6 +1,6 @@
 ﻿namespace Kakuro.Core   
 
-module Parser =
+module CellParser =
     open Kakuro.Core.Utils
     
     let parseValueCell (s: string) =

@@ -9,7 +9,6 @@ module Utils =
 
     let subString (s: string)  (startIndex: int)  (length: int) : string =
         s.Substring(startIndex, length)
-
         
     let intOption (s: string) =
         match s with

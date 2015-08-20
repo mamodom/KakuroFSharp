@@ -3,7 +3,7 @@
 module ``Kakuro cell parser`` =
     open NUnit.Framework
     open FsUnit
-    open Kakuro.Core.Parser
+    open Kakuro.Core.CellParser
     open Kakuro.Core
 
     [<Test>]

@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Kakuro.Core", "Kakuro.Core\
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Kakuro.Core.Tests", "Kakuro.Core.Tests\Kakuro.Core.Tests.fsproj", "{D5C0F3F1-21FA-46C1-98D2-B1C2489B3E36}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Kakuro.Libs", "Kakuro.Libs\Kakuro.Libs.fsproj", "{6469CCCA-5807-4271-996E-B10012EDA6E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D5C0F3F1-21FA-46C1-98D2-B1C2489B3E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5C0F3F1-21FA-46C1-98D2-B1C2489B3E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5C0F3F1-21FA-46C1-98D2-B1C2489B3E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6469CCCA-5807-4271-996E-B10012EDA6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6469CCCA-5807-4271-996E-B10012EDA6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6469CCCA-5807-4271-996E-B10012EDA6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6469CCCA-5807-4271-996E-B10012EDA6E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
