@@ -72,86 +72,8 @@ namespace Kakuro.Core.Specs
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Parse Board", ((string[])(null)));
 #line 6
 this.ScenarioSetup(scenarioInfo);
-#line hidden
-            TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
-                        "A",
-                        "B",
-                        "C",
-                        "D",
-                        "E"});
-            table1.AddRow(new string[] {
-                        "\\",
-                        "17\\",
-                        "11\\",
-                        "30\\",
-                        "\\"});
-            table1.AddRow(new string[] {
-                        "\\19",
-                        "",
-                        "",
-                        "",
-                        "\\"});
-            table1.AddRow(new string[] {
-                        "\\15",
-                        "",
-                        "",
-                        "",
-                        "\\17"});
-            table1.AddRow(new string[] {
-                        "\\",
-                        "\\20",
-                        "",
-                        "",
-                        ""});
-            table1.AddRow(new string[] {
-                        "\\",
-                        "\\21",
-                        "",
-                        "",
-                        ""});
 #line 7
- testRunner.Given("this board named \'Kakuro1\' exists", ((string)(null)), table1, "Given ");
-#line 14
- testRunner.When("I parse the board named \'Kakuro1\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-            TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
-                        "A",
-                        "B",
-                        "C",
-                        "D",
-                        "E"});
-            table2.AddRow(new string[] {
-                        "\\",
-                        "17\\",
-                        "11\\",
-                        "30\\",
-                        "\\"});
-            table2.AddRow(new string[] {
-                        "\\19",
-                        "",
-                        "",
-                        "",
-                        "\\"});
-            table2.AddRow(new string[] {
-                        "\\15",
-                        "",
-                        "",
-                        "",
-                        "\\17"});
-            table2.AddRow(new string[] {
-                        "\\",
-                        "\\20",
-                        "",
-                        "",
-                        ""});
-            table2.AddRow(new string[] {
-                        "\\",
-                        "\\21",
-                        "",
-                        "",
-                        ""});
-#line 15
- testRunner.Then("I should be able to see this board", ((string)(null)), table2, "Then ");
+ testRunner.Given("this board named Kakuro exists", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
             this.ScenarioCleanup();
         }
